@@ -1,19 +1,15 @@
 # 2019 Google InnoCamp 暑期学生活动（张掖）
 
-[![last-commit](https://img.shields.io/github/last-commit/lurchycc/Competitions-Work)](../../../graphs/commit-activity)
+[![last-commit](https://img.shields.io/github/last-commit/lurchycc/My-competition-and-apples-)](../../../graphs/commit-activity)
 
-[![Followers](https://img.shields.io/github/followers/HollowMan6?style=social)](https://github.com/HollowMan6?tab=followers)
-[![watchers](https://img.shields.io/github/watchers/HollowMan6/Competitions-Work?style=social)](../../../watchers)
-[![stars](https://img.shields.io/github/stars/HollowMan6/Competitions-Work?style=social)](../../../stargazers)
-[![forks](https://img.shields.io/github/forks/HollowMan6/Competitions-Work?style=social)](../../../network/members)
+[![Followers](https://img.shields.io/github/followers/lurchycc?style=social)](https://github.com/lurchycc?tab=followers)
+[![watchers](https://img.shields.io/github/watchers/lurchycc/My-competition-and-apples-?style=social)](../../../watchers)
+[![stars](https://img.shields.io/github/stars/lurchycc/My-competition-and-apples-?style=social)](../../../stargazers)
+[![forks](https://img.shields.io/github/forks/lurchycc/My-competition-and-apples-?style=social)](../../../network/members)
 
-[![Open Source Love](https://img.shields.io/badge/-%E2%9D%A4%20Open%20Source-Green?style=flat-square&logo=Github&logoColor=white&link=https://hollowman6.github.io/fund.html)](https://hollowman6.github.io/fund.html)
 [![GPL Licence](https://img.shields.io/badge/license-GPL-blue)](https://opensource.org/licenses/GPL-3.0/)
-[![Repo-Size](https://img.shields.io/github/repo-size/HollowMan6/Competitions-Work.svg)](../../../archive/master.zip)
+[![Repo-Size](https://img.shields.io/github/repo-size/lurchycc/My-competition-and-apples-.svg)](../../../archive/master.zip)
 
-(English version is down below.)
-
-这里为2019 Google InnoCamp 暑期学生活动（张掖）期间我们小组的活动成果。
 
 [活动参考代码](https://github.com/dslab-deepflying/deepflying/tree/master/InnoCamp)
 
