@@ -52,3 +52,47 @@
 6. 模型训练与参数调整：通过对比不同模型对相同数据的预测结果分析得到最好的训练模型
 参赛组队： 参赛者可自行组队参加，每支参赛队为1-3名成员（包括1名组长）。每支参赛队限1名指导教师。每名学生限参加1支参赛队。各高校参赛队数不限，允许跨校组队
 参赛流程： 团队人数上限3人。在第一阶段的最后3天无法新建队伍，但是可以加入其它队伍。在最后一个阶段最后3天无法新建队伍，无法加入队伍。竞赛进入历史阶段后可以新建队伍，但是已参赛队伍不可新增队员、不可解散队伍，注意：答辩队伍成员仅限活跃期间加入的成员。
+
+
+# 2018 National College Students Computer Skills Application Contest Big Data Competition
+
+# Entry content
+
+In today's society, housing rent is determined by many factors, such as decoration, location, housing pattern, transportation convenience, market supply and demand, etc. For the relatively traditional rental industry, serious information asymmetry has always existed. On the one hand, landlords do not know the real market price of rental houses and can only bear the pain of vacant houses with high rents; On the other hand, tenants cannot find cost-effective houses to meet their needs, which results in a great waste of rental resources.
+The big data questions in the computer skills competition will be based on pain points in the housing market, providing real housing market data after desensitization. Contestants need to use the historical data with monthly rent labels to build a model, and realize the prediction of monthly housing rent based on basic housing information, providing an objective measure of the rental market in the city.
+
+# Contestants
+- The participants of the competition are college students (including higher vocational, junior college, undergraduate and graduate students), on-the-job personnel, freelancers, etc.
+- Each team consists of 3 students (including a team leader). Each team is limited to one advisor and each student to one team.
+- There is no limit on the number of teams, and cross-school teams are allowed.
+
+# Time of entry
+
+- Registration period: August 28, 2018 -- November 15, 2018
+- Submission Stage: 10:00 November 01, 2018 -- 10:00 November 27, 2018
+- Evaluation period: November 27 -- November 30, 2018
+- Announcement of awards: From December 1, 2018 to December 3, 2018 (announcement of awards, and acceptance of objections, appeals and violation reports)
+
+# Awards
+
+- First prize: no more than 5% of the number of teams
+- Second prize: no more than 10% of the number of teams
+- Third Prize: no more than 20% of the number of teams
+- Awards of Excellence: several
+- Excellent co-organizers: several
+- Excellent Volunteers: several
+- Others: In addition to the relevant certificates, students who win the third prize or above can also obtain the quota of applying for professional and technical certificates without examination
+
+# Other instructions
+
+- Big Data competition can be submitted up to 5 times per day, the winners will be announced on December 1;
+Contestants can choose one or more subjects in several special competitions, and each subject will be ranked and awarded independently. However, it is important to pay attention to the competition time node so as not to miss the competition time.
+Training course: All participating teams can get the course code of "Introduction to Data Mining Competition - Housing Price Forecast" for free. This course will take you to the data mining contest from scratch, unlock a new skill, and complete your introductory training in data mining/machine learning. You will accurately predict the price of a home by analyzing and forecasting the major factors that influence a consumer's purchase of a home, using the sale price of a home in King County and the basic information of a home. I am familiar with the process of exploratory analysis, feature engineering, model training and optimization, and can solve the prediction problems in data mining competition and even practical business independently. The core knowledge of the course is as follows:
+1. Problem analysis: Master the basic information of data types, analyze the experimental purpose and possible methods, and have an overall idea of the goal realization
+2. Python data preparation: Convert training data into data that can be processed and analyzed by Python
+3. Descriptive statistical analysis: Obtain the statistical characteristics of data by analyzing data distribution and different statistical indicators
+4. Data mining and data preprocessing: understand the relationship between data types and variables, and encode variables
+5. Feature engineering: variable coding, feature selection, training set and data set division
+6. Model training and parameter adjustment: the best training model can be obtained by comparing the prediction results of different models on the same data
+Teams: participants can form their own teams to participate in the competition. Each team consists of 1-3 members (including 1 leader). Each team is limited to one advisor. Each student is limited to one team. There is no limit to the number of teams from each university, and cross-school teams are allowed
+The maximum number of team members is 3. No new teams can be created in the last 3 days of stage 1, but you can join other teams. You cannot create new teams or join teams during the last 3 days of the last stage. New teams can be created after the competition enters the historical stage, but the participating teams cannot add new members or disband the team. Note: The members of the defense team are only the members who joined during the active period.
