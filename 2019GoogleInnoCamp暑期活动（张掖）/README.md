@@ -1,6 +1,6 @@
 # 2019 Google InnoCamp 暑期学生活动（张掖）
 
-[![last-commit](https://img.shields.io/github/last-commit/HollowMan6/Competitions-Work)](../../../graphs/commit-activity)
+[![last-commit](https://img.shields.io/github/last-commit/lurchycc/Competitions-Work)](../../../graphs/commit-activity)
 
 [![Followers](https://img.shields.io/github/followers/HollowMan6?style=social)](https://github.com/HollowMan6?tab=followers)
 [![watchers](https://img.shields.io/github/watchers/HollowMan6/Competitions-Work?style=social)](../../../watchers)
