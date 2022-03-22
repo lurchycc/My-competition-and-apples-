@@ -1,4 +1,4 @@
-# 我的一些竞赛经历和活动作品
+# 竞赛经历和活动作品
 
 [![last-commit](https://img.shields.io/github/last-commit/lurchycc/My-competition-and-apples-)](../../../graphs/commit-activity)
 
