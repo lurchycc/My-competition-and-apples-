@@ -1,0 +1,609 @@
+#LR_F1分数
+Starting===========================================
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    6.9s remaining:    0.2s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    6.9s finished
+Caco-2类别
+每轮输入日志：{'mean_fit_time': array([0.00979877, 1.88509851, 0.01913924, 2.532372  , 0.01786194,
+       2.06113863, 0.01361222, 3.21763053, 0.003895  , 2.51004329,
+       0.01512933, 3.15309248]), 'std_fit_time': array([0.00691968, 0.63487379, 0.00579808, 0.54798104, 0.01000704,
+       0.19860553, 0.0089808 , 0.64123625, 0.00082239, 0.101708  ,
+       0.004454  , 0.31507145]), 'mean_score_time': array([0.        , 0.02197976, 0.        , 0.02112017, 0.        ,
+       0.00883327, 0.        , 0.01163101, 0.        , 0.01480126,
+       0.        , 0.00482898]), 'std_score_time': array([0.        , 0.00651836, 0.        , 0.00970019, 0.        ,
+       0.002429  , 0.        , 0.00684049, 0.        , 0.00745053,
+       0.        , 0.00154517]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.82242991,        nan, 0.82629108,        nan,
+       0.82242991,        nan, 0.80930233,        nan, 0.82242991,
+              nan, 0.79439252]), 'split1_test_score': array([       nan, 0.88262911,        nan, 0.88073394,        nan,
+       0.88262911,        nan, 0.85844749,        nan, 0.88262911,
+              nan, 0.8490566 ]), 'split2_test_score': array([       nan, 0.84158416,        nan, 0.81339713,        nan,
+       0.84158416,        nan, 0.81730769,        nan, 0.84158416,
+              nan, 0.81730769]), 'split3_test_score': array([       nan, 0.84210526,        nan, 0.84729064,        nan,
+       0.84210526,        nan, 0.83568075,        nan, 0.84210526,
+              nan, 0.83962264]), 'split4_test_score': array([       nan, 0.85581395,        nan, 0.88372093,        nan,
+       0.85581395,        nan, 0.86511628,        nan, 0.85581395,
+              nan, 0.84018265]), 'mean_test_score': array([       nan, 0.84891248,        nan, 0.85028674,        nan,
+       0.84891248,        nan, 0.83717091,        nan, 0.84891248,
+              nan, 0.82811242]), 'std_test_score': array([       nan, 0.01992893,        nan, 0.02825063,        nan,
+       0.01992893,        nan, 0.02194111,        nan, 0.01992893,
+              nan, 0.0198525 ]), 'rank_test_score': array([ 7,  2,  8,  1,  9,  2, 10,  5, 11,  2, 12,  6], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'none'}
+最佳模型得分:0.8502867449159168
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    1.9s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    1.9s finished
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+CYP3A4类别
+每轮输入日志：{'mean_fit_time': array([0.00338736, 0.56411676, 0.00720897, 1.02549763, 0.01421604,
+       1.26739945, 0.01420302, 1.35544672, 0.03040242, 1.15765929,
+       0.01244655, 1.07943845]), 'std_fit_time': array([2.75893983e-04, 1.14150518e-01, 2.37028293e-03, 4.33537181e-01,
+       7.35979563e-03, 1.87105427e-01, 6.27173917e-03, 1.79528115e-01,
+       2.50534435e-02, 9.54696038e-02, 3.13888652e-03, 6.40437453e-02]), 'mean_score_time': array([0.        , 0.00891008, 0.        , 0.01520343, 0.        ,
+       0.01161361, 0.        , 0.00745978, 0.        , 0.00818005,
+       0.        , 0.00584011]), 'std_score_time': array([0.        , 0.00044534, 0.        , 0.00827591, 0.        ,
+       0.00467605, 0.        , 0.00218459, 0.        , 0.00184439,
+       0.        , 0.00183573]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.9528536 ,        nan, 0.96296296,        nan,
+       0.9528536 ,        nan, 0.96296296,        nan, 0.9528536 ,
+              nan, 0.96296296]), 'split1_test_score': array([       nan, 0.97297297,        nan, 0.96618357,        nan,
+       0.97297297,        nan, 0.96618357,        nan, 0.97297297,
+              nan, 0.96618357]), 'split2_test_score': array([       nan, 0.95979899,        nan, 0.93765586,        nan,
+       0.95979899,        nan, 0.93765586,        nan, 0.95979899,
+              nan, 0.93765586]), 'split3_test_score': array([       nan, 0.95544554,        nan, 0.95049505,        nan,
+       0.95544554,        nan, 0.95049505,        nan, 0.95544554,
+              nan, 0.95049505]), 'split4_test_score': array([       nan, 0.94789082,        nan, 0.94117647,        nan,
+       0.94789082,        nan, 0.94117647,        nan, 0.94789082,
+              nan, 0.94117647]), 'mean_test_score': array([       nan, 0.95779239,        nan, 0.95169478,        nan,
+       0.95779239,        nan, 0.95169478,        nan, 0.95779239,
+              nan, 0.95169478]), 'std_test_score': array([       nan, 0.00851372,        nan, 0.01136717,        nan,
+       0.00851372,        nan, 0.01136717,        nan, 0.00851372,
+              nan, 0.01136717]), 'rank_test_score': array([ 7,  1,  8,  4,  9,  1, 10,  4, 11,  1, 12,  4], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.9577923858751504
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    4.2s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    4.2s finished
+hERG类别
+每轮输入日志：{'mean_fit_time': array([2.58326530e-03, 7.35785913e-01, 5.70774078e-03, 1.57496610e+00,
+       1.31152153e-02, 1.34802952e+00, 1.51511669e-02, 3.01099291e+00,
+       1.60899162e-02, 1.19430094e+00, 2.32915401e-02, 3.15339847e+00]), 'std_fit_time': array([2.25885820e-04, 2.70548373e-01, 3.34123498e-03, 3.98280350e-01,
+       2.64424498e-03, 1.91407604e-01, 5.24562979e-03, 1.35133403e-01,
+       6.42406906e-03, 3.45597634e-01, 1.59433058e-02, 1.66838154e-01]), 'mean_score_time': array([0.        , 0.01552677, 0.        , 0.01473169, 0.        ,
+       0.01840606, 0.        , 0.00771022, 0.        , 0.00916986,
+       0.        , 0.0047174 ]), 'std_score_time': array([0.        , 0.00810785, 0.        , 0.01162227, 0.        ,
+       0.00767032, 0.        , 0.00128029, 0.        , 0.00087698,
+       0.        , 0.00140574]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.88888889,        nan, 0.88448845,        nan,
+       0.88888889,        nan, 0.87296417,        nan, 0.88888889,
+              nan, 0.86928105]), 'split1_test_score': array([       nan, 0.8802589 ,        nan, 0.89250814,        nan,
+       0.8802589 ,        nan, 0.86731392,        nan, 0.8802589 ,
+              nan, 0.87868852]), 'split2_test_score': array([       nan, 0.91082803,        nan, 0.88235294,        nan,
+       0.91082803,        nan, 0.90131579,        nan, 0.91082803,
+              nan, 0.89180328]), 'split3_test_score': array([       nan, 0.88815789,        nan, 0.87542088,        nan,
+       0.88815789,        nan, 0.86597938,        nan, 0.88815789,
+              nan, 0.86195286]), 'split4_test_score': array([       nan, 0.89700997,        nan, 0.88666667,        nan,
+       0.89700997,        nan, 0.88888889,        nan, 0.89700997,
+              nan, 0.8852459 ]), 'mean_test_score': array([       nan, 0.89302874,        nan, 0.88428742,        nan,
+       0.89302874,        nan, 0.87929243,        nan, 0.89302874,
+              nan, 0.87739432]), 'std_test_score': array([       nan, 0.01035951,        nan, 0.00557924,        nan,
+       0.01035951,        nan, 0.01369591,        nan, 0.01035951,
+              nan, 0.01072571]), 'rank_test_score': array([ 7,  1,  8,  4,  9,  1, 10,  5, 11,  1, 12,  6], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.8930287351114444
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    4.8s remaining:    0.2s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    4.8s finished
+HOB类别
+每轮输入日志：{'mean_fit_time': array([2.73194313e-03, 1.28289595e+00, 5.21683693e-03, 2.04800577e+00,
+       1.46510124e-02, 2.20163302e+00, 1.46180630e-02, 3.43711596e+00,
+       2.87939548e-02, 2.21984754e+00, 8.96978378e-03, 3.96320472e+00]), 'std_fit_time': array([1.68235461e-04, 2.87657401e-01, 6.36581071e-04, 3.44102779e-01,
+       6.65019724e-03, 1.33832769e-01, 6.32615578e-03, 1.48998586e-01,
+       2.58390163e-02, 1.28505330e-01, 5.38762751e-04, 9.92968101e-02]), 'mean_score_time': array([0.        , 0.03350043, 0.        , 0.01451092, 0.        ,
+       0.01555905, 0.        , 0.00718966, 0.        , 0.00983982,
+       0.        , 0.0038475 ]), 'std_score_time': array([0.        , 0.00587719, 0.        , 0.00587379, 0.        ,
+       0.00837817, 0.        , 0.00204747, 0.        , 0.0020706 ,
+       0.        , 0.00030449]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.71014493,        nan, 0.68789809,        nan,
+       0.71014493,        nan, 0.69333333,        nan, 0.71014493,
+              nan, 0.66666667]), 'split1_test_score': array([       nan, 0.72058824,        nan, 0.7260274 ,        nan,
+       0.72058824,        nan, 0.71621622,        nan, 0.72058824,
+              nan, 0.73825503]), 'split2_test_score': array([       nan, 0.60465116,        nan, 0.76388889,        nan,
+       0.60465116,        nan, 0.72222222,        nan, 0.60465116,
+              nan, 0.69444444]), 'split3_test_score': array([       nan, 0.70422535,        nan, 0.72222222,        nan,
+       0.70422535,        nan, 0.69444444,        nan, 0.70422535,
+              nan, 0.72222222]), 'split4_test_score': array([       nan, 0.68148148,        nan, 0.68571429,        nan,
+       0.68148148,        nan, 0.68918919,        nan, 0.68148148,
+              nan, 0.66666667]), 'mean_test_score': array([       nan, 0.68421823,        nan, 0.71715018,        nan,
+       0.68421823,        nan, 0.70308108,        nan, 0.68421823,
+              nan, 0.69765101]), 'std_test_score': array([       nan, 0.04179393,        nan, 0.02875044,        nan,
+       0.04179393,        nan, 0.01342766,        nan, 0.04179393,
+              nan, 0.02892325]), 'rank_test_score': array([ 7,  4,  8,  1,  9,  4, 10,  2, 11,  4, 12,  3], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'none'}
+最佳模型得分:0.7171501766515291
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    2.8s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    2.8s finished
+MN类别
+每轮输入日志：{'mean_fit_time': array([0.00472264, 0.97887082, 0.00511317, 1.60708156, 0.01214404,
+       1.86426573, 0.01302056, 2.15454378, 0.02163534, 1.71017103,
+       0.01419291, 1.80532198]), 'std_fit_time': array([0.00429865, 0.23708484, 0.0006332 , 0.32642292, 0.00360521,
+       0.1434247 , 0.00253027, 0.15547889, 0.00890796, 0.20086229,
+       0.00632471, 0.09531791]), 'mean_score_time': array([0.        , 0.02256103, 0.        , 0.01726255, 0.        ,
+       0.01749668, 0.        , 0.00705833, 0.        , 0.00844884,
+       0.        , 0.00471001]), 'std_score_time': array([0.        , 0.00777071, 0.        , 0.00902954, 0.        ,
+       0.00763417, 0.        , 0.002072  , 0.        , 0.00070722,
+       0.        , 0.00140025]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.95833333,        nan, 0.95529412,        nan,
+       0.95833333,        nan, 0.94418605,        nan, 0.95833333,
+              nan, 0.94418605]), 'split1_test_score': array([       nan, 0.92938497,        nan, 0.93925234,        nan,
+       0.92938497,        nan, 0.93953488,        nan, 0.92938497,
+              nan, 0.93953488]), 'split2_test_score': array([       nan, 0.922049  ,        nan, 0.92307692,        nan,
+       0.922049  ,        nan, 0.92307692,        nan, 0.922049  ,
+              nan, 0.92307692]), 'split3_test_score': array([       nan, 0.93793103,        nan, 0.95813953,        nan,
+       0.93793103,        nan, 0.95774648,        nan, 0.93793103,
+              nan, 0.95774648]), 'split4_test_score': array([       nan, 0.9543379 ,        nan, 0.94145199,        nan,
+       0.9543379 ,        nan, 0.94145199,        nan, 0.9543379 ,
+              nan, 0.94145199]), 'mean_test_score': array([       nan, 0.94040725,        nan, 0.94344298,        nan,
+       0.94040725,        nan, 0.94119926,        nan, 0.94040725,
+              nan, 0.94119926]), 'std_test_score': array([       nan, 0.01400039,        nan, 0.01259158,        nan,
+       0.01400039,        nan, 0.01108138,        nan, 0.01400039,
+              nan, 0.01108138]), 'rank_test_score': array([ 7,  4,  8,  1,  9,  4, 10,  2, 11,  4, 12,  2], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'none'}
+最佳模型得分:0.9434429805377238
+
+
+#LR_acc
+Starting===========================================
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    3.1s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    3.1s finished
+Caco-2类别
+每轮输入日志：{'mean_fit_time': array([0.00375004, 1.5721827 , 0.00780263, 1.86562333, 0.01408024,
+       2.25995674, 0.01911378, 2.61532316, 0.0517251 , 2.02924652,
+       0.0303113 , 2.32847385]), 'std_fit_time': array([0.0010216 , 0.55867032, 0.0007396 , 0.38436519, 0.00652135,
+       0.16432028, 0.01786532, 0.21123934, 0.0113341 , 0.10578731,
+       0.01293997, 0.29868321]), 'mean_score_time': array([0.        , 0.01159043, 0.        , 0.01538892, 0.        ,
+       0.00966783, 0.        , 0.00498948, 0.        , 0.01092854,
+       0.        , 0.0044817 ]), 'std_score_time': array([0.        , 0.00517222, 0.        , 0.00979621, 0.        ,
+       0.00403672, 0.        , 0.00191085, 0.        , 0.00672551,
+       0.        , 0.00152261]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.92418773,        nan, 0.90974729,        nan,
+       0.92418773,        nan, 0.92779783,        nan, 0.92418773,
+              nan, 0.92779783]), 'split1_test_score': array([       nan, 0.87318841,        nan, 0.88768116,        nan,
+       0.87318841,        nan, 0.86956522,        nan, 0.87318841,
+              nan, 0.86956522]), 'split2_test_score': array([       nan, 0.90217391,        nan, 0.86594203,        nan,
+       0.90217391,        nan, 0.84057971,        nan, 0.90217391,
+              nan, 0.84782609]), 'split3_test_score': array([       nan, 0.89492754,        nan, 0.82971014,        nan,
+       0.89492754,        nan, 0.82971014,        nan, 0.89492754,
+              nan, 0.82971014]), 'split4_test_score': array([       nan, 0.88405797,        nan, 0.86231884,        nan,
+       0.88405797,        nan, 0.86594203,        nan, 0.88405797,
+              nan, 0.86594203]), 'mean_test_score': array([       nan, 0.89570711,        nan, 0.87107989,        nan,
+       0.89570711,        nan, 0.86671899,        nan, 0.89570711,
+              nan, 0.86816826]), 'std_test_score': array([       nan, 0.01729952,        nan, 0.02677827,        nan,
+       0.01729952,        nan, 0.034036  ,        nan, 0.01729952,
+              nan, 0.03303157]), 'rank_test_score': array([ 7,  1,  8,  4,  9,  1, 10,  6, 11,  1, 12,  5], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.8957071103437452
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    2.0s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    2.0s finished
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+CYP3A4类别
+每轮输入日志：{'mean_fit_time': array([0.00272422, 0.5912086 , 0.01169682, 1.12007122, 0.01025906,
+       1.2517436 , 0.01046267, 1.36303787, 0.0096839 , 1.22705965,
+       0.02002392, 1.00459361]), 'std_fit_time': array([1.72779521e-04, 2.49779867e-01, 7.34189586e-03, 2.41131979e-01,
+       2.66151473e-03, 2.15757732e-01, 1.29640305e-03, 4.32382788e-02,
+       5.97084027e-04, 2.00933095e-01, 1.05971418e-02, 8.65450480e-02]), 'mean_score_time': array([0.        , 0.0122931 , 0.        , 0.0110795 , 0.        ,
+       0.01208582, 0.        , 0.00705509, 0.        , 0.00554237,
+       0.        , 0.00540652]), 'std_score_time': array([0.        , 0.00816038, 0.        , 0.00678399, 0.        ,
+       0.00730029, 0.        , 0.00159907, 0.        , 0.00164878,
+       0.        , 0.00213227]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.93140794,        nan, 0.92418773,        nan,
+       0.93140794,        nan, 0.92418773,        nan, 0.93140794,
+              nan, 0.92418773]), 'split1_test_score': array([       nan, 0.94565217,        nan, 0.92753623,        nan,
+       0.94565217,        nan, 0.92753623,        nan, 0.94565217,
+              nan, 0.92753623]), 'split2_test_score': array([       nan, 0.94202899,        nan, 0.92753623,        nan,
+       0.94202899,        nan, 0.92753623,        nan, 0.94202899,
+              nan, 0.92753623]), 'split3_test_score': array([       nan, 0.96014493,        nan, 0.91304348,        nan,
+       0.96014493,        nan, 0.91304348,        nan, 0.96014493,
+              nan, 0.91304348]), 'split4_test_score': array([       nan, 0.91304348,        nan, 0.92391304,        nan,
+       0.91304348,        nan, 0.92391304,        nan, 0.91304348,
+              nan, 0.92391304]), 'mean_test_score': array([       nan, 0.9384555 ,        nan, 0.92324334,        nan,
+       0.9384555 ,        nan, 0.92324334,        nan, 0.9384555 ,
+              nan, 0.92324334]), 'std_test_score': array([       nan, 0.01568714,        nan, 0.00533358,        nan,
+       0.01568714,        nan, 0.00533358,        nan, 0.01568714,
+              nan, 0.00533358]), 'rank_test_score': array([ 7,  1,  8,  4,  9,  1, 10,  4, 11,  1, 12,  4], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.9384555014911318
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    3.8s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    3.9s finished
+hERG类别
+每轮输入日志：{'mean_fit_time': array([0.00285511, 1.01641507, 0.00491571, 1.48855314, 0.01044426,
+       1.74518499, 0.01635227, 2.74847684, 0.02076163, 1.77924585,
+       0.01306343, 2.82027073]), 'std_fit_time': array([1.64563087e-04, 2.59657465e-01, 8.44501533e-04, 2.29282788e-01,
+       1.43315033e-03, 3.00098756e-01, 6.13406965e-03, 2.25206705e-01,
+       8.55458272e-03, 1.59002092e-01, 4.75358364e-03, 2.75349275e-01]), 'mean_score_time': array([0.        , 0.01797972, 0.        , 0.01410351, 0.        ,
+       0.01197028, 0.        , 0.0056345 , 0.        , 0.00766029,
+       0.        , 0.00397706]), 'std_score_time': array([0.        , 0.01176881, 0.        , 0.00822529, 0.        ,
+       0.00651617, 0.        , 0.00181332, 0.        , 0.00039424,
+       0.        , 0.00138822]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.87364621,        nan, 0.81227437,        nan,
+       0.87364621,        nan, 0.82310469,        nan, 0.87364621,
+              nan, 0.82310469]), 'split1_test_score': array([       nan, 0.9057971 ,        nan, 0.84057971,        nan,
+       0.9057971 ,        nan, 0.84057971,        nan, 0.9057971 ,
+              nan, 0.84057971]), 'split2_test_score': array([       nan, 0.90217391,        nan, 0.87681159,        nan,
+       0.90217391,        nan, 0.87681159,        nan, 0.90217391,
+              nan, 0.86231884]), 'split3_test_score': array([       nan, 0.87681159,        nan, 0.88405797,        nan,
+       0.87681159,        nan, 0.86956522,        nan, 0.87681159,
+              nan, 0.86231884]), 'split4_test_score': array([       nan, 0.87318841,        nan, 0.84057971,        nan,
+       0.87318841,        nan, 0.83333333,        nan, 0.87318841,
+              nan, 0.82971014]), 'mean_test_score': array([       nan, 0.88632344,        nan, 0.85086067,        nan,
+       0.88632344,        nan, 0.84867891,        nan, 0.88632344,
+              nan, 0.84360645]), 'std_test_score': array([       nan, 0.01452018,        nan, 0.02636593,        nan,
+       0.01452018,        nan, 0.02089407,        nan, 0.01452018,
+              nan, 0.0162659 ]), 'rank_test_score': array([ 7,  1,  8,  4,  9,  1, 10,  5, 11,  1, 12,  6], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.886323444775807
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    4.7s remaining:    0.2s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    4.8s finished
+HOB类别
+每轮输入日志：{'mean_fit_time': array([2.96640396e-03, 9.68806791e-01, 5.45721054e-03, 1.64764905e+00,
+       1.24177456e-02, 2.06981487e+00, 1.21305466e-02, 3.18712626e+00,
+       4.48667049e-02, 1.84081068e+00, 3.03477287e-02, 3.79815230e+00]), 'std_fit_time': array([1.75320709e-04, 2.20954147e-01, 1.70498514e-03, 3.50728870e-01,
+       2.64288996e-03, 4.87299307e-01, 1.91242331e-03, 3.48751780e-01,
+       2.99201492e-02, 3.30950510e-01, 3.14365117e-02, 1.67223737e-01]), 'mean_score_time': array([0.        , 0.00966563, 0.        , 0.01140895, 0.        ,
+       0.01678367, 0.        , 0.00800853, 0.        , 0.01151452,
+       0.        , 0.00350575]), 'std_score_time': array([0.        , 0.00333886, 0.        , 0.00393327, 0.        ,
+       0.00845693, 0.        , 0.00042614, 0.        , 0.00648338,
+       0.        , 0.00035114]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.80505415,        nan, 0.83393502,        nan,
+       0.80505415,        nan, 0.83032491,        nan, 0.80505415,
+              nan, 0.83754513]), 'split1_test_score': array([       nan, 0.83695652,        nan, 0.8115942 ,        nan,
+       0.83695652,        nan, 0.79347826,        nan, 0.83695652,
+              nan, 0.80072464]), 'split2_test_score': array([       nan, 0.81521739,        nan, 0.82246377,        nan,
+       0.81521739,        nan, 0.82246377,        nan, 0.81521739,
+              nan, 0.82246377]), 'split3_test_score': array([       nan, 0.86956522,        nan, 0.84782609,        nan,
+       0.86956522,        nan, 0.8442029 ,        nan, 0.86956522,
+              nan, 0.82246377]), 'split4_test_score': array([       nan, 0.83695652,        nan, 0.80797101,        nan,
+       0.83695652,        nan, 0.79710145,        nan, 0.83695652,
+              nan, 0.79710145]), 'mean_test_score': array([       nan, 0.83274996,        nan, 0.82475802,        nan,
+       0.83274996,        nan, 0.81751426,        nan, 0.83274996,
+              nan, 0.81605975]), 'std_test_score': array([       nan, 0.02220451,        nan, 0.01467451,        nan,
+       0.02220451,        nan, 0.01946949,        nan, 0.02220451,
+              nan, 0.01508792]), 'rank_test_score': array([ 7,  1,  8,  4,  9,  1, 10,  5, 11,  1, 12,  6], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.8327499607596923
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    3.7s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    3.7s finished
+MN类别
+每轮输入日志：{'mean_fit_time': array([2.35786438e-03, 7.54297066e-01, 6.68935776e-03, 1.69344540e+00,
+       1.18104935e-02, 2.16385288e+00, 1.82676315e-02, 2.98452015e+00,
+       2.08940983e-02, 1.57681160e+00, 2.28069782e-02, 2.71608043e+00]), 'std_fit_time': array([1.93205131e-04, 1.42050265e-01, 1.46605361e-03, 3.83881031e-01,
+       2.53432724e-03, 1.50093503e-01, 1.11622075e-02, 1.97740421e-01,
+       6.07719931e-03, 9.83358626e-02, 1.88300401e-02, 1.32970744e-01]), 'mean_score_time': array([0.        , 0.00770149, 0.        , 0.02039323, 0.        ,
+       0.01212502, 0.        , 0.00512404, 0.        , 0.007268  ,
+       0.        , 0.00488739]), 'std_score_time': array([0.        , 0.00052101, 0.        , 0.00802561, 0.        ,
+       0.00625584, 0.        , 0.00188677, 0.        , 0.00104171,
+       0.        , 0.00197433]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.88808664,        nan, 0.92057762,        nan,
+       0.88808664,        nan, 0.89530686,        nan, 0.88808664,
+              nan, 0.88808664]), 'split1_test_score': array([       nan, 0.92391304,        nan, 0.91666667,        nan,
+       0.92391304,        nan, 0.92753623,        nan, 0.92391304,
+              nan, 0.91666667]), 'split2_test_score': array([       nan, 0.91304348,        nan, 0.9057971 ,        nan,
+       0.91304348,        nan, 0.89130435,        nan, 0.91304348,
+              nan, 0.89130435]), 'split3_test_score': array([       nan, 0.93115942,        nan, 0.90942029,        nan,
+       0.93115942,        nan, 0.88768116,        nan, 0.93115942,
+              nan, 0.86956522]), 'split4_test_score': array([       nan, 0.88043478,        nan, 0.92028986,        nan,
+       0.88043478,        nan, 0.94565217,        nan, 0.88043478,
+              nan, 0.94565217]), 'mean_test_score': array([       nan, 0.90732747,        nan, 0.91455031,        nan,
+       0.90732747,        nan, 0.90949615,        nan, 0.90732747,
+              nan, 0.90225501]), 'std_test_score': array([       nan, 0.01984511,        nan, 0.0059445 ,        nan,
+       0.01984511,        nan, 0.02298205,        nan, 0.01984511,
+              nan, 0.02638292]), 'rank_test_score': array([ 7,  3,  8,  1,  9,  3, 10,  2, 11,  3, 12,  6], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'none'}
+最佳模型得分:0.9145503060743996
+#LR_auc
+
+Starting===========================================
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    3.2s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    3.3s finished
+Caco-2类别
+每轮输入日志：{'mean_fit_time': array([0.00380239, 1.54248147, 0.00670934, 1.62309365, 0.0151504 ,
+       1.94597692, 0.01486654, 2.59471583, 0.03481383, 1.64897671,
+       0.01346912, 2.40745306]), 'std_fit_time': array([2.89361690e-04, 5.97832031e-01, 2.27289213e-03, 4.73355214e-01,
+       3.41123066e-03, 2.35427466e-01, 5.97218921e-03, 2.97077072e-01,
+       3.88425779e-02, 2.12049137e-01, 5.33638986e-03, 8.36010468e-02]), 'mean_score_time': array([0.        , 0.02661548, 0.        , 0.01132679, 0.        ,
+       0.01834979, 0.        , 0.0070159 , 0.        , 0.01082439,
+       0.        , 0.00519619]), 'std_score_time': array([0.        , 0.00937243, 0.        , 0.00237423, 0.        ,
+       0.01120252, 0.        , 0.00244938, 0.        , 0.00216641,
+       0.        , 0.00229805]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.95101907,        nan, 0.91940609,        nan,
+       0.95101907,        nan, 0.91880342,        nan, 0.95101907,
+              nan, 0.91880342]), 'split1_test_score': array([       nan, 0.95587015,        nan, 0.92423823,        nan,
+       0.95587015,        nan, 0.9011226 ,        nan, 0.95587015,
+              nan, 0.9011226 ]), 'split2_test_score': array([       nan, 0.98440524,        nan, 0.95410054,        nan,
+       0.98446054,        nan, 0.94210032,        nan, 0.98446054,
+              nan, 0.94210032]), 'split3_test_score': array([       nan, 0.96145551,        nan, 0.95531715,        nan,
+       0.96145551,        nan, 0.95266272,        nan, 0.96145551,
+              nan, 0.95199912]), 'split4_test_score': array([       nan, 0.95537245,        nan, 0.94530775,        nan,
+       0.95537245,        nan, 0.94232152,        nan, 0.95537245,
+              nan, 0.94193441]), 'mean_test_score': array([       nan, 0.96162448,        nan, 0.93967395,        nan,
+       0.96163554,        nan, 0.93140211,        nan, 0.96163554,
+              nan, 0.93119197]), 'std_test_score': array([       nan, 0.01186311,        nan, 0.01505738,        nan,
+       0.01188435,        nan, 0.01876845,        nan, 0.01188435,
+              nan, 0.01857403]), 'rank_test_score': array([ 7,  3,  8,  4,  9,  1, 10,  5, 11,  1, 12,  6], dtype=int32)}
+参数的最佳取值:{'max_iter': 500, 'penalty': 'l2'}
+最佳模型得分:0.9616355447412241
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    2.0s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    2.1s finished
+CYP3A4类别
+每轮输入日志：{'mean_fit_time': array([0.00265932, 0.59512129, 0.00866909, 1.3765461 , 0.01175485,
+       1.33086534, 0.01416268, 1.38029432, 0.01877089, 1.39839172,
+       0.02373734, 1.20948429]), 'std_fit_time': array([1.66741370e-04, 1.34533787e-01, 5.52099442e-03, 2.44424390e-01,
+       3.07849130e-03, 1.38689959e-01, 6.19070593e-03, 2.27474267e-01,
+       7.21129368e-03, 5.47852716e-02, 1.72485318e-02, 9.27487325e-02]), 'mean_score_time': array([0.        , 0.01207027, 0.        , 0.01135039, 0.        ,
+       0.01622014, 0.        , 0.01024079, 0.        , 0.00838122,
+       0.        , 0.0077579 ]), 'std_score_time': array([0.        , 0.00635964, 0.        , 0.00332881, 0.        ,
+       0.00803251, 0.        , 0.00714581, 0.        , 0.00166845,
+       0.        , 0.00191049]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.96843645,        nan, 0.96613712,        nan,
+       0.96843645,        nan, 0.96613712,        nan, 0.96843645,
+              nan, 0.96613712]), 'split1_test_score': array([       nan, 0.97759574,        nan, 0.96891409,        nan,
+       0.97759574,        nan, 0.96891409,        nan, 0.97759574,
+              nan, 0.96891409]), 'split2_test_score': array([       nan, 0.98193657,        nan, 0.97430512,        nan,
+       0.98193657,        nan, 0.97430512,        nan, 0.98193657,
+              nan, 0.97430512]), 'split3_test_score': array([       nan, 0.98844781,        nan, 0.98298677,        nan,
+       0.98844781,        nan, 0.98242666,        nan, 0.98844781,
+              nan, 0.98242666]), 'split4_test_score': array([       nan, 0.98697753,        nan, 0.96835399,        nan,
+       0.98697753,        nan, 0.96835399,        nan, 0.98697753,
+              nan, 0.96835399]), 'mean_test_score': array([       nan, 0.98067882,        nan, 0.97213942,        nan,
+       0.98067882,        nan, 0.9720274 ,        nan, 0.98067882,
+              nan, 0.9720274 ]), 'std_test_score': array([       nan, 0.00722487,        nan, 0.00605169,        nan,
+       0.00722487,        nan, 0.00585175,        nan, 0.00722487,
+              nan, 0.00585175]), 'rank_test_score': array([ 7,  1,  8,  4,  9,  1, 10,  5, 11,  1, 12,  5], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.9806788193602938
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    4.0s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    4.1s finished
+hERG类别
+每轮输入日志：{'mean_fit_time': array([2.57735252e-03, 8.03965616e-01, 5.87997437e-03, 1.36386499e+00,
+       1.65251732e-02, 1.61972861e+00, 1.97374344e-02, 3.00281429e+00,
+       1.74175262e-02, 1.45770116e+00, 1.65484428e-02, 3.01831512e+00]), 'std_fit_time': array([7.30726147e-05, 3.30835081e-01, 4.38342802e-04, 2.22252231e-01,
+       1.13283021e-02, 4.39874150e-01, 1.75082014e-02, 3.04896742e-02,
+       5.41952580e-03, 2.53629102e-01, 9.11291117e-03, 1.82613664e-01]), 'mean_score_time': array([0.        , 0.01685028, 0.        , 0.01935596, 0.        ,
+       0.01031489, 0.        , 0.00661821, 0.        , 0.00911965,
+       0.        , 0.00454693]), 'std_score_time': array([0.        , 0.00929699, 0.        , 0.00928722, 0.        ,
+       0.00160207, 0.        , 0.00185896, 0.        , 0.00266582,
+       0.        , 0.00128794]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.96996093,        nan, 0.93068314,        nan,
+       0.96996093,        nan, 0.93363953,        nan, 0.96996093,
+              nan, 0.93696547]), 'split1_test_score': array([       nan, 0.94491165,        nan, 0.93682138,        nan,
+       0.94491165,        nan, 0.93485203,        nan, 0.94491165,
+              nan, 0.93490526]), 'split2_test_score': array([       nan, 0.97594209,        nan, 0.9402278 ,        nan,
+       0.97594209,        nan, 0.94853098,        nan, 0.97594209,
+              nan, 0.94363423]), 'split3_test_score': array([       nan, 0.95273579,        nan, 0.91132638,        nan,
+       0.95273579,        nan, 0.91606344,        nan, 0.95273579,
+              nan, 0.91606344]), 'split4_test_score': array([       nan, 0.95369385,        nan, 0.93884394,        nan,
+       0.95369385,        nan, 0.94150522,        nan, 0.95369385,
+              nan, 0.9339472 ]), 'mean_test_score': array([       nan, 0.95944886,        nan, 0.93158053,        nan,
+       0.95944886,        nan, 0.93491824,        nan, 0.95944886,
+              nan, 0.93310312]), 'std_test_score': array([       nan, 0.0115935 ,        nan, 0.01063988,        nan,
+       0.0115935 ,        nan, 0.0108244 ,        nan, 0.0115935 ,
+              nan, 0.0091666 ]), 'rank_test_score': array([ 7,  1,  8,  6,  9,  1, 10,  4, 11,  1, 12,  5], dtype=int32)}
+参数的最佳取值:{'max_iter': 200, 'penalty': 'l2'}
+最佳模型得分:0.9594488611481815
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    4.4s remaining:    0.2s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    4.5s finished
+HOB类别
+每轮输入日志：{'mean_fit_time': array([2.56261826e-03, 1.68941674e+00, 8.69770050e-03, 1.85046921e+00,
+       6.74128532e-03, 2.17595410e+00, 1.59060478e-02, 3.41111293e+00,
+       4.37722683e-02, 2.26964540e+00, 1.61142826e-02, 3.79191356e+00]), 'std_fit_time': array([1.76868255e-04, 2.21745668e-01, 8.09155595e-03, 4.07552141e-01,
+       2.76711889e-03, 1.57095178e-01, 8.67397732e-03, 1.76116698e-01,
+       2.54948363e-02, 1.79443115e-01, 7.10583421e-03, 5.17446744e-02]), 'mean_score_time': array([0.        , 0.03644772, 0.        , 0.01593175, 0.        ,
+       0.02008557, 0.        , 0.00715756, 0.        , 0.00954366,
+       0.        , 0.00423532]), 'std_score_time': array([0.        , 0.02470325, 0.        , 0.00693275, 0.        ,
+       0.00896445, 0.        , 0.00168175, 0.        , 0.00010969,
+       0.        , 0.00048727]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.92369752,        nan, 0.89081088,        nan,
+       0.9237659 ,        nan, 0.87289758,        nan, 0.9237659 ,
+              nan, 0.8697525 ]), 'split1_test_score': array([       nan, 0.90263523,        nan, 0.8668516 ,        nan,
+       0.90270458,        nan, 0.87496533,        nan, 0.90270458,
+              nan, 0.87343967]), 'split2_test_score': array([       nan, 0.89313454,        nan, 0.88800277,        nan,
+       0.89313454,        nan, 0.88148405,        nan, 0.89313454,
+              nan, 0.8740638 ]), 'split3_test_score': array([       nan, 0.88093439,        nan, 0.87049124,        nan,
+       0.88093439,        nan, 0.86932326,        nan, 0.88093439,
+              nan, 0.86279629]), 'split4_test_score': array([       nan, 0.87543799,        nan, 0.87083476,        nan,
+       0.87543799,        nan, 0.85503263,        nan, 0.87543799,
+              nan, 0.86245277]), 'mean_test_score': array([       nan, 0.89516793,        nan, 0.87739825,        nan,
+       0.89519548,        nan, 0.87074057,        nan, 0.89519548,
+              nan, 0.868501  ]), 'std_test_score': array([       nan, 0.01712132,        nan, 0.00994357,        nan,
+       0.01715016,        nan, 0.00879399,        nan, 0.01715016,
+              nan, 0.00502048]), 'rank_test_score': array([ 7,  3,  8,  4,  9,  1, 10,  5, 11,  1, 12,  6], dtype=int32)}
+参数的最佳取值:{'max_iter': 500, 'penalty': 'l2'}
+最佳模型得分:0.8951954778636297
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done  58 out of  60 | elapsed:    3.6s remaining:    0.1s
+[Parallel(n_jobs=32)]: Done  60 out of  60 | elapsed:    3.8s finished
+MN类别
+每轮输入日志：{'mean_fit_time': array([0.00283103, 0.96200266, 0.00605402, 1.61728277, 0.013449  ,
+       1.47994137, 0.02308693, 2.76625218, 0.01110902, 1.93648362,
+       0.0152597 , 2.34328609]), 'std_fit_time': array([2.20201696e-04, 1.75242211e-01, 1.90774719e-03, 2.55361504e-01,
+       4.61982841e-03, 3.50491310e-01, 1.85648540e-02, 1.95553145e-01,
+       3.51857065e-03, 2.87591552e-01, 9.78945000e-03, 2.89241852e-01]), 'mean_score_time': array([0.        , 0.01733131, 0.        , 0.01695223, 0.        ,
+       0.01562333, 0.        , 0.00736756, 0.        , 0.01219158,
+       0.        , 0.00585947]), 'std_score_time': array([0.        , 0.01078083, 0.        , 0.00786253, 0.        ,
+       0.006218  , 0.        , 0.00216881, 0.        , 0.00666136,
+       0.        , 0.00259464]), 'param_max_iter': masked_array(data=[200, 200, 200, 200, 500, 500, 500, 500, 1000, 1000,
+                   1000, 1000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_penalty': masked_array(data=['l1', 'l2', 'elasticnet', 'none', 'l1', 'l2',
+                   'elasticnet', 'none', 'l1', 'l2', 'elasticnet', 'none'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'max_iter': 200, 'penalty': 'l1'}, {'max_iter': 200, 'penalty': 'l2'}, {'max_iter': 200, 'penalty': 'elasticnet'}, {'max_iter': 200, 'penalty': 'none'}, {'max_iter': 500, 'penalty': 'l1'}, {'max_iter': 500, 'penalty': 'l2'}, {'max_iter': 500, 'penalty': 'elasticnet'}, {'max_iter': 500, 'penalty': 'none'}, {'max_iter': 1000, 'penalty': 'l1'}, {'max_iter': 1000, 'penalty': 'l2'}, {'max_iter': 1000, 'penalty': 'elasticnet'}, {'max_iter': 1000, 'penalty': 'none'}], 'split0_test_score': array([       nan, 0.96879536,        nan, 0.97539913,        nan,
+       0.96886792,        nan, 0.97104499,        nan, 0.96886792,
+              nan, 0.97104499]), 'split1_test_score': array([       nan, 0.9582105 ,        nan, 0.95430425,        nan,
+       0.9582105 ,        nan, 0.96241156,        nan, 0.9582105 ,
+              nan, 0.96108491]), 'split2_test_score': array([       nan, 0.94808604,        nan, 0.93299307,        nan,
+       0.94808604,        nan, 0.92767043,        nan, 0.94808604,
+              nan, 0.92767043]), 'split3_test_score': array([       nan, 0.95683558,        nan, 0.92460809,        nan,
+       0.95683558,        nan, 0.92431644,        nan, 0.95683558,
+              nan, 0.94203427]), 'split4_test_score': array([       nan, 0.96296026,        nan, 0.95734597,        nan,
+       0.96296026,        nan, 0.94531535,        nan, 0.96296026,
+              nan, 0.93714911]), 'mean_test_score': array([       nan, 0.95897755,        nan, 0.9489301 ,        nan,
+       0.95899206,        nan, 0.94615175,        nan, 0.95899206,
+              nan, 0.94779674]), 'std_test_score': array([       nan, 0.00687099,        nan, 0.01814313,        nan,
+       0.00689176,        nan, 0.01845586,        nan, 0.00689176,
+              nan, 0.01592924]), 'rank_test_score': array([ 7,  3,  8,  4,  9,  1, 10,  6, 11,  1, 12,  5], dtype=int32)}
+参数的最佳取值:{'max_iter': 500, 'penalty': 'l2'}
+最佳模型得分:0.9589920601926689

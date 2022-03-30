@@ -1,0 +1,55 @@
+#SVM_AUC分数
+Starting===========================================
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    6.8s finished
+Caco-2类别参数的最佳取值:{'C': 2, 'degree': 4, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 300, 'random_state': 10}
+最佳模型得分:0.9655388943116596
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    5.4s finished
+CYP3A4类别参数的最佳取值:{'C': 5, 'degree': 5, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 500, 'random_state': 10}
+最佳模型得分:0.9837157350925348
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    6.6s finished
+hERG类别参数的最佳取值:{'C': 2, 'degree': 4, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 500, 'random_state': 10}
+最佳模型得分:0.9630749431829001
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    8.4s finished
+HOB类别参数的最佳取值:{'C': 2, 'degree': 4, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 500, 'random_state': 10}
+最佳模型得分:0.8999810387913323
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    5.8s finished
+MN类别参数的最佳取值:{'C': 5, 'degree': 4, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 500, 'random_state': 10}
+最佳模型得分:0.9766024339010121
+
+#SVM_F1分数
+Starting===========================================
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    7.1s finished
+Caco-2类别参数的最佳取值:{'C': 3, 'degree': 5, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 500, 'random_state': 10}
+最佳模型得分:0.8675600154805998
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    5.3s finished
+CYP3A4类别参数的最佳取值:{'C': 2, 'degree': 6, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 300, 'random_state': 10}
+最佳模型得分:0.9594870015869317
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    6.6s finished
+hERG类别参数的最佳取值:{'C': 2, 'degree': 5, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 300, 'random_state': 10}
+最佳模型得分:0.899805649301635
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    8.4s finished
+HOB类别参数的最佳取值:{'C': 2, 'degree': 6, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 500, 'random_state': 10}
+最佳模型得分:0.7075847006077742
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+MN类别参数的最佳取值:{'C': 5, 'degree': 5, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': 300, 'random_state': 10}
+最佳模型得分:0.9644191646162676
+[Parallel(n_jobs=32)]: Done 135 out of 135 | elapsed:    5.7s finished
